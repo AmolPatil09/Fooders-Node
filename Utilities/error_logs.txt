@@ -189,3 +189,34 @@
 2024-05-12T06:04:23.640Z - Error: unathorized user
     at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Middelware\auth.js:17:21)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-05-12T13:59:35.901Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Middelware\auth.js:16:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-05-12T14:01:08.102Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Middelware\auth.js:16:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-05-12T14:02:07.876Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Middelware\auth.js:16:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-05-12T14:02:52.700Z - TypeError: model.findOne is not a function
+    at restorentService.restorents (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Models\restorentsModel.js:9:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async restorentService.restorents (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\restorentsService.js:5:22)
+    at async restrentController.restorents (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Controllers\restarentsController.js:7:26)
+2024-05-12T14:03:21.753Z - Error: No restorents availables
+    at restorentService.restorents (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\restorentsService.js:10:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async restrentController.restorents (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Controllers\restarentsController.js:7:26)
+2024-05-12T14:04:19.767Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Middelware\auth.js:16:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-05-12T14:04:56.234Z - Error: No restorents availables
+    at restorentService.restorents (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\restorentsService.js:10:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async restrentController.restorents (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Controllers\restarentsController.js:7:26)
+2024-05-12T14:06:16.312Z - ValidationError: restarents validation failed: location: Path `location` is required., name: Path `name` is required.
+    at Document.invalidate (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\mongoose\lib\document.js:3289:32)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\mongoose\lib\document.js:3050:17
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\mongoose\lib\schema\subdocument.js:267:14
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\mongoose\lib\schemaType.js:1388:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)

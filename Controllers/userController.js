@@ -1,6 +1,6 @@
 const userService=require('../Service/userService')
 
-let userController={};
+const userController={};
 const {validationResult } = require('express-validator');
 userController.register= async(req, res,next) => {
     const errors = validationResult(req);
