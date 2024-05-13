@@ -10,7 +10,9 @@ userController.register= async(req, res,next) => {
     const registerData=req.body;
     try {
     const register= await userService.register(registerData);
-    res.send(register) ;
+    res.json({"message":"registration successfuly",
+        "status":200
+    }) ;
     } catch (error) {
        next(error) 
     }
@@ -22,7 +24,9 @@ userController.login= async(req, res,next) => {
     try {
     const login=await userService.login(emailId,password);
     res.cookie("uId",login)
-    res.json({"message":"login success"})
+    res.json({"message":"login success",
+    "status":200
+    })
         
     } catch (error) {
         next(error)

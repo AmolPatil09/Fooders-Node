@@ -220,3 +220,262 @@
     at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\mongoose\lib\schema\subdocument.js:267:14
     at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\mongoose\lib\schemaType.js:1388:9
     at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2024-05-13T13:52:11.606Z - Error: Could not connect database
+    at connection.getUserCollection (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Utilities\connection.js:92:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userModel.checkUser (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Models\userModel.js:5:17)
+    at async userService.register (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\userService.js:7:16)
+    at async userController.register (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Controllers\userController.js:12:21)
+2024-05-13T13:54:30.948Z - Error: Could not connect database
+    at connection.getUserCollection (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Utilities\connection.js:92:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userModel.checkUser (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Models\userModel.js:5:17)
+    at async userService.register (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\userService.js:7:16)
+    at async userController.register (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Controllers\userController.js:12:21)
+2024-05-13T13:54:32.340Z - Error: Could not connect database
+    at connection.getUserCollection (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Utilities\connection.js:92:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userModel.checkUser (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Models\userModel.js:5:17)
+    at async userService.register (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\userService.js:7:16)
+    at async userController.register (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Controllers\userController.js:12:21)
+2024-05-13T13:57:46.975Z - Error: User is alredy register
+    at userService.register (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\userService.js:9:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.register (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Controllers\userController.js:12:21)
+2024-05-13T14:11:02.229Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Middelware\auth.js:9:17)
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:47:12)
+2024-05-13T14:15:39.330Z - Error: user alredy login
+    at sessionService.createSession (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\sessionService.js:8:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userService.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\userService.js:30:35)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Controllers\userController.js:23:17)
+2024-05-13T14:16:24.068Z - Error: No restorents availables
+    at restorentService.restorents (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\restorentsService.js:10:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async restrentController.restorents (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Controllers\restarentsController.js:7:26)
+2024-05-13T15:28:21.666Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Middelware\auth.js:16:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-05-13T16:33:18.953Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Middelware\auth.js:9:17)
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:47:12)
+2024-05-13T16:33:34.638Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Middelware\auth.js:9:17)
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:47:12)
+2024-05-13T16:34:29.896Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Middelware\auth.js:9:17)
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:47:12)
+2024-05-13T16:36:38.968Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Middelware\auth.js:9:17)
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:47:12)
+2024-05-13T16:36:53.810Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Middelware\auth.js:9:17)
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:47:12)
+2024-05-13T16:37:22.679Z - Error: User is alredy register
+    at userService.register (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\userService.js:9:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.register (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Controllers\userController.js:12:21)
+2024-05-13T16:47:53.599Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Middelware\auth.js:9:17)
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:47:12)
+2024-05-13T16:48:21.159Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Middelware\auth.js:9:17)
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:47:12)
+2024-05-13T16:48:52.598Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Middelware\auth.js:9:17)
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:47:12)
+2024-05-13T16:53:19.474Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Middelware\auth.js:9:17)
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:47:12)
+2024-05-13T16:53:22.597Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Middelware\auth.js:9:17)
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:47:12)
+2024-05-13T16:53:47.438Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Middelware\auth.js:9:17)
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:47:12)
+2024-05-13T16:54:22.033Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Middelware\auth.js:9:17)
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:47:12)
+2024-05-13T16:59:11.211Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Middelware\auth.js:9:17)
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\node_modules\express\lib\router\index.js:47:12)
+2024-05-13T17:06:57.468Z - Error: User is alredy register
+    at userService.register (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\userService.js:9:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.register (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Controllers\userController.js:12:21)
+2024-05-13T17:11:01.492Z - Error: User not exist
+    at userService.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\userService.js:42:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Controllers\userController.js:25:17)
+2024-05-13T17:11:56.518Z - Error: User not exist
+    at userService.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\userService.js:42:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Controllers\userController.js:25:17)
+2024-05-13T18:43:53.368Z - Error: User not exist
+    at userService.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\userService.js:42:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Controllers\userController.js:25:17)
+2024-05-13T18:44:24.291Z - Error: User not exist
+    at userService.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\userService.js:42:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Controllers\userController.js:25:17)
+2024-05-13T18:44:57.175Z - Error: User not exist
+    at userService.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\userService.js:42:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Controllers\userController.js:25:17)
+2024-05-13T18:45:00.932Z - Error: User not exist
+    at userService.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\userService.js:42:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Controllers\userController.js:25:17)
+2024-05-13T18:45:10.373Z - Error: User not exist
+    at userService.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\userService.js:42:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Controllers\userController.js:25:17)
+2024-05-13T18:45:55.794Z - Error: User not exist
+    at userService.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\userService.js:42:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Controllers\userController.js:25:17)
+2024-05-13T18:47:25.446Z - Error: User not exist
+    at userService.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\userService.js:42:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Controllers\userController.js:25:17)
+2024-05-13T18:47:48.589Z - Error: User not exist
+    at userService.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\userService.js:42:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Controllers\userController.js:25:17)
+2024-05-13T18:48:22.797Z - Error: User not exist
+    at userService.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\userService.js:42:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Controllers\userController.js:25:17)
+2024-05-13T18:48:50.821Z - Error: Incorrect Password
+    at userService.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\userService.js:36:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Controllers\userController.js:25:17)
+2024-05-13T18:49:12.470Z - Error: user alredy login
+    at sessionService.createSession (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\sessionService.js:8:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userService.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\userService.js:30:35)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Controllers\userController.js:25:17)
+2024-05-13T18:49:52.915Z - Error: user alredy login
+    at sessionService.createSession (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\sessionService.js:8:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userService.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\userService.js:30:35)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Controllers\userController.js:25:17)
+2024-05-13T18:56:48.795Z - Error: user alredy login
+    at sessionService.createSession (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\sessionService.js:8:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userService.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Service\userService.js:30:35)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Fooders Node\Controllers\userController.js:25:17)

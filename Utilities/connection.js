@@ -80,7 +80,7 @@ const locationSchema = new mongoose.Schema({
    menu: [{ type: menuItemSchema }]
  });
 const connection={}
-const url="mongodb://127.0.0.1:27017/Fooders"
+const url="mongodb+srv://amol:amol%40123@cluster0.dfb4w56.mongodb.net/"
 const connect=async(docName,dacName)=>{
    return (await mongoose.connect(url,{useNewUrlParser:true})).model(docName,dacName)
 }
